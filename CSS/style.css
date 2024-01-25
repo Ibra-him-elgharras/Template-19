@@ -19,20 +19,19 @@ body{
 .container{
     background: #fff;
     max-width: 400px;
-    width: 350px;
-    height: 500px;
+    width: 300px;
+    height: 470px;
     border-radius: 5px;
-    padding: 30px 15px;
+    padding: 40px 15px 50px;
 }
 
 form{
     width: 100%;
     height: 100%;
-    background: yellow;
 }
 
 .container form hr{
-    width: 8%;
+    width: 10%;
     height: 4px;
     background: #d72460;
     position: relative;
@@ -40,8 +39,66 @@ form{
     margin-bottom: 20px;
 }
 
+.container form p{
+    padding-top: 10px;
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 14px;
+}
+
 input{
     width: 100%;
-    height: 35px;
+    height: 40px;
+    margin-bottom: 15px;
+    border: none;
+    font-size: 16px;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.547);
+}
+
+
+.container form .cnt{
+    margin-top: 15px;
+    background: #d72460;
+}
+
+
+.container form .cnt,.twtr,.fb{
+    display: block;
+    width: 100%;
+    height: 40px;
+    font-size: 15px;
+    color: #fff;
+    
+    border-radius: 5px;
+    border: none;
+}
+
+.container form .twtr{
+    background: #00e1ff;
+}
+
+
+.container form .fb{
+    background: #032cc0;
+}
+
+.container form .twitter i{
+    position: relative;
+    top: 30px;
+    left: 30px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.container form .facebook i{
+    position: relative;
+    top: 30px;
+    left: 30px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.container form .twitter,.facebook{
+    margin-top: 0;
 }
 
