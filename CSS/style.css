@@ -51,14 +51,17 @@ input{
     height: 40px;
     margin-bottom: 15px;
     border: none;
+    outline: none;
     font-size: 16px;
     border-bottom: 3px solid rgba(0, 0, 0, 0.547);
+    
 }
 
 
 .container form .cnt{
     margin-top: 15px;
     background: #d72460;
+    cursor: pointer;
 }
 
 
